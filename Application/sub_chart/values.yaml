@@ -4,7 +4,7 @@ deploy1:
   containers:
       containerPort: 8080
       image: 'quay.io/amdevops2/openshift-demo'
-      tag: 'chart_v2'
+      tag: 'chart_v1'
 
   service:
       servicePort: 8080
@@ -15,7 +15,7 @@ deploy2:
   containers:
     containerPort: 8080
     image: 'quay.io/amdevops2/openshift-demo'
-    tag: 'chart_v2'
+    tag: 'chart_v1'
 
   service:
     servicePort: 8080
