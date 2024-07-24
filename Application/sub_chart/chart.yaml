@@ -4,11 +4,11 @@ description: A Helm chart for Kubernetes
 type: application
 dependencies:
   - name: <<Name-of-Your-Chart>>
-    repository: oci://ghcr.io/<<Git-Hub-User>>/helm/
+    repository: oci://ghcr.io/ori-schif/helm/
     version: "1.0.0"
     alias: deploy1
   - name: workshop-test
-    repository: "oci://ghcr.io/<<GitHub-User>>/helm"
+    repository: "oci://ghcr.io/ori-schif/helm"
     version: 1.0.1
     alias: deploy2
 version: 1.0.0
