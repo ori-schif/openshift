@@ -10,8 +10,8 @@ deploy1:
       servicePort: 8080
   argocd:
     syncwave:
-     deployment: 5
-     configmap: 1
+      deployment: 5
+      configmap: 1
 
 deploy2: 
   ReplicaNumber: 1
