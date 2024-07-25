@@ -29,7 +29,7 @@ deploy2:
       deployment: 10
       configmap: 1
 
-test: healthy
+test: Healthy
 
 github:
   user: ori-schif
