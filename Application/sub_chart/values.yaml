@@ -29,4 +29,4 @@ deploy2:
       deployment: 10
       configmap: 1
 
-test: Healthy
+test: Null
