@@ -18,3 +18,4 @@ spec:
         args: ["curl -u $USERNAME:$TOKEN -X POST -d '{\"title\":\"Deployment sync Done\",\"body\":\"The web site not Healthy.\"}' $URL" ]
       restartPolicy: Never
   backoffLimit: 1
+  
