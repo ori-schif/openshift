@@ -34,4 +34,4 @@ test: Healty
 github:
   user: ori-schif
   token: empty-pass
-  url: https://api.github.com/repos/ori-schif/openshift/issues
+  url: <https://api.github.com/repos/ori-schif/openshift/issues>
