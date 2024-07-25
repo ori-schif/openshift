@@ -29,4 +29,9 @@ deploy2:
       deployment: 10
       configmap: 1
 
-test: Null
+test: Healty
+
+github:
+  user: ori-schif
+  token: empty-pass
+  url: https://api.github.com/repos/ori-schif/openshift/issues
