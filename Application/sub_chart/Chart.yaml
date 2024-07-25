@@ -5,12 +5,11 @@ type: application
 dependencies:
   - name: openshift
     repository: oci://ghcr.io/ori-schif/helm
-    version: 1.0.1
+    version: "1.0.1"
     alias: deploy1
   - name: openshift
     repository: oci://ghcr.io/ori-schif/helm
-    version: 1.0.1cd ..
-    
+    version: "1.0.1"
     alias: deploy2
 version: 1.0.1
 appVersion: "1.0.1"
